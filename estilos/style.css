@@ -3,12 +3,12 @@
 /*
     Paleta de cores
     Verde: #49a09d
-    Lilás: #5f2c82
+    Roxo: #5f2c82
 */
 
 :root {
     --verde: #49a09d;
-    --lilás: #5f2c82;
+    --roxo: #5f2c82;
 }
 
 * {
@@ -19,7 +19,7 @@
 }
 
 body, html {
-    background-color: var(--lilás);
+    background-color: var(--roxo);
     height: 100vh;
     width: 100vw;
 }
@@ -39,4 +39,13 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+    background: var(--roxo) url(../imagens/building.jpg);
+    height: 200px;
+    background-size: cover;
+    height: 200px;
+    background-position: center bottom;
 }
