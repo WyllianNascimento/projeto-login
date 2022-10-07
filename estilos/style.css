@@ -83,8 +83,9 @@ div.campo > i {
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: ;
+    width: calc(100% - 44px);
     height: 100%;
+    transform: translateY(-10px);
     border: 0px;
     border-radius: 8px;
 }
